@@ -1,0 +1,70 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+div.header{
+    background-color: #1933cf;
+    color: #ffffff;
+    padding: 10px;
+}
+#Logo{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    display: inline-grid;
+    margin-top: -3.2%;
+    margin-left: 5%
+}
+#User{
+    position: absolute;
+    text-align: right;
+    margin-top: -3%;
+    margin-left: 85%;
+}
+.EmailId{
+    position: absolute;
+    margin-top: 20%;
+    display: inline;
+    margin-top: 15%;
+    margin-left: 45%;
+}
+#UserId{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -60%;
+}
+.Password{
+    position: absolute;
+    margin-top: 20%;
+    display: inline;
+    margin-top: 18%;
+    margin-left: 45%;   
+}
+#Password{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -60%;
+}
+#SubmitButton{
+    position: absolute;
+    
+}
+#ForgetPassword{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 60%;
+    font-weight: 10;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+   color: #000000;
+}
+a:active{
+    color: blueviolet;
+}
